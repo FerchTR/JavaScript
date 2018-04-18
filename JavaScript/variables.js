@@ -35,7 +35,10 @@ var usuario = {
     apellido:"tamayo",
     cedula:'171450',
     edad:28,
-    //imprimir:()
+    imprimir: function(){
+
+        console.log(this.nombre +'  '+ this.apellido +'  '+ this.cedula)
+    }
 };
 
 //console.log(usuario.nombre);
@@ -64,3 +67,6 @@ var potenciaDeDosDeUnNumero =function (numero){ //no es necesario poner el nombr
 
 }
 console.log(potenciaDeDosDeUnNumero(5));
+console.log(potenciaDeDosDeUnNumero(3,2,4));
+usuario.imprimir();
+console.log(usuario.imprimir);
