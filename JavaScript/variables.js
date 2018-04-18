@@ -38,13 +38,29 @@ var usuario = {
     //imprimir:()
 };
 
-console.log(usuario.nombre);
+//console.log(usuario.nombre);
 
 
 delete usuario.edad;
-console.log(usuario);
+//console.log(usuario);
 usuario.fechaNacimiento=new Date();
-console.log(usuario);
+//console.log(usuario);
 usuario.mascotas={};
 usuario.mascotas.nombre = "Mia";
-console.log(usuario);
+//console.log(usuario);
+
+var arreglo = [1,2,3,"Edison",true,undefined,null,new Date(),{nombre:"Edison"}];
+console.log(arreglo);
+
+function sumarNumeros(numeroUno , numeroDos) {
+    return numeroDos + numeroDos;
+}
+
+console.log(sumarNumeros(1,2));
+console.log(sumarNumeros(1,2.333));
+
+var potenciaDeDosDeUnNumero =function (numero){ //no es necesario poner el nombre de la funcion cuando es iguialada a una variable
+    return numero*numero;
+
+}
+console.log(potenciaDeDosDeUnNumero(5));
