@@ -64,6 +64,9 @@ class usuarioDos{
     }
 }
 
+let luis:usuarioDos={
+    nombre:'luis',
+    edad:21}
 interface usuarioDos{
     nombre:string;
     casado?:boolean;

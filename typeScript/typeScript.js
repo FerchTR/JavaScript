@@ -44,6 +44,10 @@ var usuarioDos = /** @class */ (function () {
     };
     return usuarioDos;
 }());
+var luis = {
+    nombre: 'luis',
+    edad: 21
+};
 var fernando = new usuarioDos('fernando', false, 27);
 console.log(fernando);
 //get casado(){
