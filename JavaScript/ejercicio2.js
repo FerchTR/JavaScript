@@ -15,6 +15,7 @@ while(i<5){
     i++;
 
 }
+
 console.log('\n'+text)
 
 console.log('\n'+'GENERADORES DE 124 Mw'+'\n')
@@ -24,3 +25,6 @@ for (i=1;i<16;i++) {
     gen1 = gen1 + 124;
 }
 console.log(text);
+
+
+

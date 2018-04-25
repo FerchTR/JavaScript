@@ -1,7 +1,7 @@
 //var nombre = 'edison';
 //console.log(typeof nombre);
 
-var arreglo = [1,'34','hola','edison',12,true];
+var arreglo = [1,'34','hola','edison',12,'true'];
 
 function validarNumeroDeStringsEnArreglo (arreglo){
     var i;

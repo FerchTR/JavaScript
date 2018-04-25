@@ -2,9 +2,9 @@ console.log('############################################');
 console.log('##        MINISTERIO DEL AMBIENTE         ##');
 console.log('############################################');
 
-var numMeses= 10;
+var numMeses= 20;
 var i=0;
-var numOsos=2500;
+var numOsos=8;
 
 for (i=1;i<= numMeses;i++){
 
