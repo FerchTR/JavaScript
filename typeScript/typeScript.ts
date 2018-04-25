@@ -64,6 +64,12 @@ class usuarioDos{
     }
 }
 
+interface usuarioDos{
+    nombre:string;
+    casado?:boolean;
+    edad:number;
+
+}
 let fernando= new usuarioDos('fernando',false,27);
 console.log(fernando);
 
