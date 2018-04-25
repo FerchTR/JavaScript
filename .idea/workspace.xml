@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/JavaScript/ejercicio1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/JavaScript/ejercicio2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -56,8 +56,20 @@
       <file leaf-file-name="typeScript.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/typeScript/typeScript.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="34">
+              <caret line="56" column="3" lean-forward="true" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="typeScript.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typeScript/typeScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,6 +138,12 @@
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
               <item name="typeScript" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="typeScript" type="462c0819:PsiDirectoryNode" />
+              <item name="typeScript.ts" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -158,19 +176,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.ejercicio3.js">
+  <component name="RunManager" selected="Node.js.typeScript.js">
     <configuration name="ejercicio1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/ejercicio1.js" working-dir="$PROJECT_DIR$/JavaScript" />
     <configuration name="ejercicio2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ejercicio2.js" working-dir="$PROJECT_DIR$/JavaScript" />
     <configuration name="ejercicio3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ejercicio3.js" working-dir="$PROJECT_DIR$/JavaScript" />
+    <configuration name="typeScript.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="typeScript.js" working-dir="$PROJECT_DIR$/typeScript" />
     <configuration name="variables.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="variables.js" working-dir="$PROJECT_DIR$/JavaScript" />
     <list>
       <item itemvalue="Node.js.ejercicio1.js" />
       <item itemvalue="Node.js.ejercicio2.js" />
       <item itemvalue="Node.js.ejercicio3.js" />
       <item itemvalue="Node.js.variables.js" />
+      <item itemvalue="Node.js.typeScript.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.typeScript.js" />
         <item itemvalue="Node.js.ejercicio3.js" />
         <item itemvalue="Node.js.ejercicio2.js" />
         <item itemvalue="Node.js.ejercicio1.js" />
@@ -192,15 +213,16 @@
       <workItem from="1524444277708" duration="1621000" />
       <workItem from="1524445920658" duration="8809000" />
       <workItem from="1524672645582" duration="642000" />
-      <workItem from="1524673519902" duration="2850000" />
+      <workItem from="1524673519902" duration="5356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14869000" />
+    <option name="totallyTimeSpent" value="17375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" weight="0.32957748" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12630208" />
@@ -209,9 +231,9 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37042254" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37042254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32957748" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32957748" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -224,6 +246,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/typeScript/typeScript.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -315,7 +342,7 @@
     <entry file="file://$PROJECT_DIR$/JavaScript/ejercicio1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -325,7 +352,7 @@
     <entry file="file://$PROJECT_DIR$/JavaScript/ejercicio2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -336,10 +363,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/typeScript/typeScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/typeScript/typeScript.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="34">
+          <caret line="56" column="3" lean-forward="true" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
         </state>
       </provider>
     </entry>
