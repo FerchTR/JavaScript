@@ -44,10 +44,15 @@ var usuarioDos = /** @class */ (function () {
     };
     return usuarioDos;
 }());
-var luis = {
-    nombre: 'luis',
-    edad: 21
-};
+/*let luis:usuarioDos={
+    nombre:'luis',
+    edad:21}
+interface usuarioDos{
+    nombre:string;
+    casado?:boolean;
+    edad:number;
+
+}*/
 var fernando = new usuarioDos('fernando', false, 27);
 console.log(fernando);
 //get casado(){

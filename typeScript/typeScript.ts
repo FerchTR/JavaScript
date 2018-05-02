@@ -64,7 +64,7 @@ class usuarioDos{
     }
 }
 
-let luis:usuarioDos={
+/*let luis:usuarioDos={
     nombre:'luis',
     edad:21}
 interface usuarioDos{
@@ -72,7 +72,7 @@ interface usuarioDos{
     casado?:boolean;
     edad:number;
 
-}
+}*/
 let fernando= new usuarioDos('fernando',false,27);
 console.log(fernando);
 
