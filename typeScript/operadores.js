@@ -36,13 +36,21 @@ var resultadoSumaReduce = arregloNumero.reduce(function (valorAcumuladoActual, v
     console.log('valor actual arreglo ', valorAcrualArreglo);
     return valorAcumuladoActual - valorAcrualArreglo;
 }, 20);
-var resultadoEdadUsuario = arregloUsuarios.reduce(function (acumuladoEdad, usuario) {
-    return acumuladoEdad + usuario.edad;
-}, 0);
+var resultadoEdadUsuario = arregloUsuarios.reduce(function (acumuladoEdad, usuario) { return acumuladoEdad + usuario.edad; }, 0);
 //transformar o mutar arreglos .map
-var nuevoArregloUsuarios = arregloUsuarios.map(//devuelve el arreglo mutado
+var nuevoArregloUsuarios = arregloUsuarios
+    .map(//devuelve el arreglo mutado
 function (usuario) {
-    usuario.deuda = 0;
+    usuario.beca = false;
+    return usuario;
+})
+    .map(function (usuario) {
+    usuario.deuda = calcularDeuda(usuario.edad);
     return usuario;
 });
 console.log('nuevo Arreglo de Usuarios', nuevoArregloUsuarios);
+function calcularDeuda(edadUsuario) {
+    var totalEdad = arregloUsuarios
+        .reduce(function (total, usuario) { return total + usuario.edad; }, 0);
+    return totalEdad * (edadUsuario / 100);
+}

@@ -55,28 +55,39 @@ let resultadoSumaReduce = arregloNumero.reduce(
 
 
 let resultadoEdadUsuario = arregloUsuarios.reduce(
-    (acumuladoEdad:number , usuario:UsuarioArreglo)=>{
-        return acumuladoEdad + usuario.edad
-
-    },0
+    (acumuladoEdad:number , usuario:UsuarioArreglo)=>acumuladoEdad + usuario.edad,0
 );
 
 //transformar o mutar arreglos .map
 
-let nuevoArregloUsuarios = arregloUsuarios.map(//devuelve el arreglo mutado
+let nuevoArregloUsuarios = arregloUsuarios
+    .map(//devuelve el arreglo mutado
     (usuario:UsuarioArreglo)=>{
-        usuario.deuda=0;
+        usuario.beca=false;
         return usuario;
     }
-
 )
+    .map(
+        (usuario:UsuarioArreglo)=>{
+            usuario.deuda=calcularDeuda(usuario.edad);
+            return usuario;
+        }
 
+    )
 
 console.log('nuevo Arreglo de Usuarios',nuevoArregloUsuarios)
+
+function calcularDeuda (edadUsuario:number){
+    const totalEdad = arregloUsuarios
+        .reduce((total,usuario:UsuarioArreglo)=>total+usuario.edad,0);
+    return totalEdad*(edadUsuario/100);
+}
+
 
 interface UsuarioArreglo{
     nombre:string;
     edad:number;
+    beca?:boolean;
     deuda?:number;
 }
 
